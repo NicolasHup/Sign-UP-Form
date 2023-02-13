@@ -23,9 +23,20 @@ body{
 
 .container .left{
     width: 28vw;
-    background-image: url(/Sign-UP-Form/images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-image: url(/images/halie-west-25xggax4bSA-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.left .uper{
+    height: 50vh;
+}
+
+.left .bottom-text{
+    display: flex;
+    justify-content: center;
+    padding-top: 270px;
+    color: white;
 }
 
 .container .right{
@@ -63,7 +74,7 @@ div.user-details{
 
 form .user-details .input-box{
     margin-bottom: 15px;
-    width: calc(100% / 2);
+    width: calc(100% / 3);
 }
 
 .user-details .input-box .detail{
