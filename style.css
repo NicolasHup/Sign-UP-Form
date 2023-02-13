@@ -46,17 +46,20 @@ span.logo-text{
     font-family: Norse-Bold, sans-serif;
     font-size: 55px;
     color: white;
+    margin-top: 10px;
 }
 
 div.logo{
     display: flex;
     justify-content: center;
+    margin-top: 160px;
     width: 100%;
-    padding-top: 160px;
+    height: 12vh;
+    background: rgba(14, 13, 13, 0.5);
 }
 img {
-    width:15%;
-    height:40%;
+    width:20%;
+    height:90%;
 }
 
 .container .right{
