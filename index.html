@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <script src="/scrip.js"></script>
+
     <div class="container">
         <div class="left">
             <div class="uper">
@@ -53,15 +56,17 @@
                         </div>
                         <div class="input-box">
                             <span class="detail">Password</span>
-                            <input type="password" required>
+                            <input type="password" id="password" required>
                         </div>
                         <div class="input-box">
                             <span class="detail">Confirm Password</span>
-                            <input type="password" required>
+                            <input type="password" id="confirm-password" required>
+                            <p id="message" ></p>
                         </div>
                     </div>
                     <div class="button">
-                        <input type="submit" value="Create Account">
+                        <input type="submit" onclick="checkPassword()"
+                        value="Create Account">
                     </div>
                     <div class="last-para">
                         <span class="line-text">
